@@ -16,7 +16,7 @@ Code here is tested with Flair images. Intensities are normalized by its maximum
 Following the first training, `train.py` will then be executed with an alternative training style of two phases. I, with fixed cluster centers, the auto-encoder part will be trained so that it can produces features easier for clustering as well as reconstructing the given images and II, with fixed auto-encoder, the cluster centers will be updated through a mini-batch Kmeans algorithm.
 
 ## Some visualization
-The following figures shows the prediction on 3 test slices.
+The following figures shows the prediction on 3 test slices. Top: Slices in Flair format. Bottom: Predicted segmentation masks.
 <img src = 'segU.png' height="480" width="720"> 
 
 
