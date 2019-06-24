@@ -17,6 +17,7 @@ Following the first training, `train.py` will then be executed with an alternati
 
 ## Some visualization
 The following figures shows the prediction on 3 test slices. Top: Slices in Flair format. Bottom: Predicted segmentation masks.
+There are 3 nature components per image: the background, the normal brain tissues and the lesion part.
 <img src = 'segU.png' height="480" width="720"> 
 
 
