@@ -34,8 +34,8 @@ params['n clusters'] = 3
 params['n features'] = 64 
 params['output dir'] = r'/home/dykuang/UMI-SEG/output/'
 params['input channels'] = 1
-params['en spec'] = [8, 16, 32]
-params['de spec'] = [8, 8, 8]
+params['en spec'] = [8, 16, 32]  #Specify layer parameters for the U-net as encoder
+params['de spec'] = [8, 8, 8]    #Specify layer parameters for the decoder
 
 #params['training data list']=['vol_1_slice_{}.npy'.format(i) for i in range(10, 121)]
 
